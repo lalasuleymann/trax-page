@@ -1,0 +1,109 @@
+.about-us-section{
+    height: 100vh;
+    margin-top: 800px;
+    .container-about{
+        height: 550px;
+        background-color: #26313c;
+        color: white;
+        .title-about{
+            text-align: center;
+            padding-top: 80px;
+            font-size: 18px;
+            p{
+                letter-spacing: 1px;
+                font-size: 45px;
+                font-weight: bolder;
+            }
+        }
+        .main-about{
+            .circle{
+                margin-top: 100px;
+                margin-left: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-evenly;
+                font-size: 13px;
+                h3{
+                    padding-top: 25px;
+                    text-align: center;
+                    font-weight: bold;
+                }
+                .number-1{
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid white;
+                    border-radius: 50px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #3EABDC;
+                        transition: 0.3s ease-in-out;
+                    }
+                    &::after{
+                        content: '';
+                        width: 60px;
+                        height: 1px;
+                        color: white;
+                    }
+                }
+                .number-2{
+                    width: 90px;    
+                    height: 90px;
+                    border: 1px solid white;
+                    border-radius: 50px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #3EABDC;
+                        transition: 0.3s ease-in-out;
+                    }
+                }
+                .number-3{
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid white;
+                    border-radius: 50px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #3EABDC;
+                        transition: 0.3s ease-in-out;
+                    }
+                }
+                .number-4{
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid white;
+                    border-radius: 50px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #3EABDC;
+                        transition: 0.3s ease-in-out;
+                    }
+                }
+                .number-5{
+                    width: 90px;
+                    height: 90px;
+                    border: 1px solid white;
+                    border-radius: 50px;
+                    &:hover{
+                        cursor: pointer;
+                        background-color: #3EABDC;
+                        transition: 0.3s ease-in-out;
+                    }
+                }
+            }
+                ul{
+                    margin-left: 15px;
+                    margin-right: 70px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    li{
+                        text-align: center;
+                        list-style: none;
+                        margin-left: 60px;
+                        margin-top: 30px;
+                        font-size: 13px;
+                    }
+                 }
+        }
+    }
+}

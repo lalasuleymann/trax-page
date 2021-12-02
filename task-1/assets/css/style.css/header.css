@@ -1,0 +1,17 @@
+.caontainer-fluid {
+  height: 70px;
+}
+
+.fixed-top .navbar-brand {
+  margin-left: 80px;
+}
+
+.fixed-top .nav-link {
+  letter-spacing: 1px;
+  color: white;
+}
+
+.fixed-top .navbar-collapse {
+  margin-right: 80px;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,14 @@
+@mixin button($button:transparent){
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #3EABDC;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    width: 150px;
+    height: 40px;
+    background-color: #3EABDC;
+    position: relative;
+    align-items: center;
+}

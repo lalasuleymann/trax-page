@@ -1,0 +1,89 @@
+.intro-section{
+   .container-intro{
+       height: auto;
+       background-color: white;
+       .main-photo{
+           position: relative;
+           margin: auto;
+           img{
+            width: 100%;
+            height: 100vh;
+            filter: brightness(50%);
+           }
+       }
+       .headline{
+           position: absolute;
+           text-align: center;
+           top: 25%;
+           width: 100%;
+           font-size: 30px;
+           color: white;
+           .multipurpose{
+               font-size: 15px;
+           }
+       }
+       .highlighted{
+           position: absolute;
+           top: 80%;
+           width: 80%;
+           margin-left: 150px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           .col-4{
+               padding: 10px 20pxs;
+               justify-content: center;
+               align-items: center;
+               text-align: center;
+               color: white;
+               width: 350px;
+               height: 250px;
+               border: solid 1px #515252;
+               background-color: #515252;
+               i{
+                   padding-top: 40px;
+                   padding-bottom: 20px;
+                   font-size: 40px;
+               }
+           }
+           .well-documented{
+               background-color: #3EABDC;
+               border: solid 1px #3EABDC;
+               height: 300px;
+               i{
+                   padding-top: 70px;
+               }
+           }
+       }
+       .basic-info{
+           margin-left: 100px;
+           margin-right: 100px;
+           margin-top: 250px;
+           .container-part{
+               display: flex;
+                span{
+                    padding-top: 150px;
+                    font-size: 17px;
+                    letter-spacing: 1px;
+                    h2{
+                        letter-spacing: 2px;
+                        font-size: 30px;
+                        font-weight: bold;
+                        padding-bottom: 25px;
+                    }
+                }
+                button{
+                    color: white;
+                    font-size: 20px;
+                    @include button($button:transparent);
+                }
+                img{
+                    padding-top: 90px;
+                    padding-bottom: 100px;
+                    width: 41%;
+                }
+           }
+       }
+   }
+}
